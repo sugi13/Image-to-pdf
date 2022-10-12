@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JPG to PDF - convert your image to pdf</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>PngToPdf📥</h1>
+    <div class="button">
+      <button id = "download-btn">Convert <ion-icon name="caret-forward-outline" id = "forward"></ion-icon></button>
+    </div>
+  </header>
+  <!--section-->
+  <section id = "file">    
+    <h2><ion-icon name="images-outline"></ion-icon> JPG TO PDF</h2>
+    <div class="file-upload-wrapper">
+      <div class="variants">
+        <div class='file'>
+          <label for='input-file'>
+            <ion-icon name="cloudy" id = "cloud"></ion-icon>
+            select file
+            </label>
+          <input id='input-file' type='file' />
+        </div>
+    </div>
+    <div class="img">
+      <img src="/css/jpg.png" id = "showImage">
+    </div>
+    </div>
+  </section>
+
+
+  <section id = "about-upload">
+    <div class="section-container">
+      <div id="img">
+        <img src="/css/3982ce4502a0be4d1471ef34a9376e4f.svg" alt="">
+      </div>
+      <div class="content">
+        <h2>How to convert JPG to PDF online:</h2>
+        <p>1. Upload your image to the JPG to PDF converter.</p>
+        <p>2. Click ‘Convert’ and wait for the conversion to take place.</p>
+        <p>3. And that's all there is. Save the converted PDF to your computer.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
